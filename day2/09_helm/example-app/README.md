@@ -9,8 +9,12 @@ sudo mv linux-amd64/helm /usr/local/bin/helm
 ```sh
 helm template --output-dir=./output .
 helm template --output-dir=./output --values ./production.values.yaml .
-
 ```
+
+https://helm.sh/docs/chart_template_guide/functions_and_pipelines/
+
+https://helm.sh/docs/chart_template_guide/function_list/
+
 
 ```sh
 kubectl create ns mynamespace
